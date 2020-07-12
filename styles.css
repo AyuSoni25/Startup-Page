@@ -1,0 +1,142 @@
+
+body{
+	font-family: "Special Elite";
+	text-align: center;
+}
+
+li{
+	margin-bottom: 5%;
+}
+
+/*Sections*/
+.title-section{
+	color:#fff;
+	background-color: #162447;
+}
+
+.feature-section{
+	background-color: #1f4068;
+}
+
+.testimonial-section{
+	background-color: #ffe277 ;
+}
+
+.cta-section{
+	background-color: #e43f5a ;
+}
+
+.footer-section{
+	background-color: #1b1b2f;
+}
+
+/*Headings*/
+.big-heading{
+	color: white;
+	font-size: 4.5rem;
+	line-height: 1.5;
+	font-weight: 550;
+}
+
+.feature-heading{
+	color: white;
+	font-size: 2.5rem;
+}
+
+/*Containers*/
+.container-fluid{
+	padding: 7% 15%;
+}
+
+/*Navigation Bar*/
+.navbar{
+	padding-bottom:4.5rem;
+	padding-left: 0;
+}
+
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+
+.brand_image{
+	width:2.0rem;
+}
+
+.nav-item{
+	padding: 0 15px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+/*Title*/
+#title .container-fluid{
+	padding: 3% 12.5% ;
+	text-align: left;
+}
+
+.title-image{
+	width:80%;
+}
+
+/*Download Buttons*/
+.download-button{
+	margin:5% 10% 5% 0;
+}
+
+.download-button2{
+	margin: auto 15px;
+}
+
+/*Features*/
+
+.feature-content{
+	margin-top: 5%;
+}
+
+.feature-list{
+	color:white;
+	font-size: 1.5rem;
+	padding-left: 0px;
+	margin-top: 10%;
+}
+
+.icon{
+	color: #e43f5a ;
+}
+
+/*Testimonials*/
+.testimonial-text{
+	font-size: 2.3rem;
+	line-height: 1.5;
+}
+
+.testimonial-image{
+	width:10%;
+	border-radius: 100%;
+	margin:20px;
+}
+
+/*Call to Action*/
+.cta-text{
+	font-size:2.5rem;
+}
+
+/*Footer*/
+#footer{
+	color: grey;
+}
+
+.social-icon{
+	margin: 0px 10px;
+}
+
+@media (max-width:1028px){
+	#title .container-fluid{
+		text-align: center;
+	}
+}
